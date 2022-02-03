@@ -1,0 +1,96 @@
+body {
+  background-color: hotpink;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(255, 251, 0);
+  text-shadow: 0 0 .5em blue
+ }
+
+ a:hover{
+   color:rgb(255, 255, 255);
+   font-weight: bold;
+ }
+
+ ul{
+  list-style: none;  
+ }
+
+ li{
+
+  display: inline;
+  padding-right: 3em;
+ }
+.transition-fade {
+  opacity: 1;
+  transition: 800ms;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+
+h1 {
+  color: rgb(0, 255, 115);
+  font-size: 3.5em;
+  font-family: "Courier New", Courier, monospace;
+  border-style: dashed;
+  border-width: 0.15em;
+  text-align: center;
+  width:100%;
+  margin-top:2em;
+  padding:1em;
+}
+
+nav {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  border-style:double;
+  border-width:1em;
+  font-variant: small-caps;
+  font-size: 2.8em;
+  color:rgb(255, 0, 0);
+  display: grid;
+  margin: 1em 0 2em 0; 
+  text-align: center;
+  text-shadow: 1em;
+}
+
+
+
+.wrapper{
+  display:grid;
+  width:75%;
+  margin:2em auto 1em auto;
+
+}
+
+img{
+  width:45%;
+  margin:auto;
+  padding:3em;
+  border-spacing: 1em;
+  border-style: dotted;
+  border-width: .5em;
+  color:yellow;
+  margin:5em auto 5em auto;
+}
+
+.dog{
+  display:grid;
+  width:100vw;
+  margin:auto;
+  justify-content: center;
+  
+}
+
+footer{
+  line-height: 1.7em;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-size: 1.5em;
+  font-stretch: ultra-expanded;
+}
+
+
